@@ -1,0 +1,35 @@
+title: Avgust AI
+description: > # this means to ignore newlines until "baseurl:"
+  Development and setup of AI assistants for customer service, creation of landing pages and business card websites. I integrate modern technologies into businesses.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://avgustai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: https://x.com/AvgustPl
+
+# Author Settings
+author: Pavel Avgust # add your name
+author-img: pl-avg.webp # add your photo
+about-author: Development and setup of AI assistants for customer service, creation of landing pages and business card websites. I integrate modern technologies into businesses.
+social-twitter: AvgustPl
+social-facebook: pavel.avgust.9
+social-github: AvgustAI
+social-linkedin: pavel-avgust
+social-email: pl.avgust@gmail.com
+
+# Disqus
+discus-identifier: https-avgustai-github-io
+
+# Tracker
+analytics: G-1KCJB9C22R # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
